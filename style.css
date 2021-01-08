@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #2c3e50;
+}
+#Loading{
+  width: 20px;
+  height: 20px;
+  margin: 18em 45em;
+  border: 4px solid #ecf0f1;
+  border-radius: 50%;
+  border-top: 4px solid #1abc9c;
+  animation: spin 2s Linear infinite;
+}
+@keyframes spin {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+}
+}
